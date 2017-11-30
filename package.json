@@ -1,0 +1,19 @@
+{
+  "name": "SibiContactApp",
+  "version": "1.0.0",
+  "description": "Sibi Contact App",
+  "main": "index.js",
+  "author": "Cody Crozier",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "pg": "^7.4.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "heroku-postbuild": "cd client && yarn --production=false && yarn run build",
+    "dev": "nodemon server.js && cd client && yarn start"
+  }
+}

@@ -1,0 +1,23 @@
+.Card {
+  text-align: center;
+  display: inline-block;
+  width: 95%;
+  box-shadow: 1px 1px #666;
+  font-family: 'Quicksand', sans-serif;
+  padding: 0px !important;
+  background-color: #555;
+  color:white;
+  margin: 15px 2.5px 15px 2.5%;
+  border-radius: 12px;
+  font-size: 18px;
+}
+
+.Card:hover {
+  transition: transform 0.2s;
+  transform: scale3d(1.006, 1.006, 1);
+  cursor: pointer;
+}
+
+.p {
+  margin-left: 5px;
+}
